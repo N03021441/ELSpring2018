@@ -1,1 +1,1 @@
-This is where you put your programs and code
+Programs and code will be placed in this folder
