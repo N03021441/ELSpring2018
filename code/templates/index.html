@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Discount Twitch.tv</title>
+    <style>
+      button {height: 75px; width:75px;}
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Discount Twitch.tv</h1>
+    <div style="float: left;">
+      <img src="../1.jpg">
+      <img src="{{ url_for('video_feed') }}" style="max-width:70%; max-height:70%;">
+    </div>
+    <div id="controls" style="margin-left: 1200px;">
+      <button type="button" style="position: absolute; top: 35%; left: 61.5%;">Left</button>
+      <button type="button" style="position: absolute; top: 30%;">Up</button>
+      <button type="button" style="position: absolute; top: 35%; right: 25%;">Right</button>
+      <button type="button" style="position: absolute; top: 40%;">Down</button>
+    </div>
+  </body>
+</html>
