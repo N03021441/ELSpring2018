@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 from importlib import import_module
 import os
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, Response, request
+import remote_Servo_Control
 
 # import camera driver
 if os.environ.get('CAMERA'):
@@ -20,9 +21,12 @@ def index():
     """Video streaming home page."""
     return render_template('index.html')
 
+@app.route('/controls', methods=['POST'])
+def control():
+    return remote_Servo_Control.PrintData()
+
 
 def gen(camera):
-    """Video streaming generator function."""
     while True:
         frame = camera.get_frame()
         yield (b'--frame\r\n'
@@ -31,7 +35,7 @@ def gen(camera):
 
 @app.route('/video_feed')
 def video_feed():
-    """Video streaming route. Put this in the src attribute of an img tag."""
+
     return Response(gen(Camera()),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
