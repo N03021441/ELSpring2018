@@ -1,25 +1,29 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
     <title>Discount Twitch.tv</title>
     <style>
-
+    
     </style>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type=text/javascript>
+        
+    </script>
   </head>
+
   <body>
     <h1>Welcome to Discount Twitch.tv</h1>
     <div style="float: left;">
       <img src="../1.jpg">
       <img src="{{ url_for('video_feed') }}" style="max-width:70%; max-height:70%;">
     </div>
-    <div style="text-align:center;width:480px;">
-      <button onclick="moveup()">UP</button><br><br>
-      <button onclick="moveleft()">LEFT</button>
-      <button onclick="moveright()">RIGHT</button><br><br>
-      <button onclick="movedown()">DOWN</button>
-    </div>
-    <div class="btn-group">
-      <button>Screenshot</button>
-      <button>Video</button>
-    </div>
+    <form id="controls" method="post" action="/controls" style="text-align:center;width:480px;">
+      <button type="submit" name="button" value="up">Up</button><br><br>
+      <button type="submit" name="button" value="left">Left</button>
+      <button type="submit" name="button" value="right">Right</button><br><br>
+      <button type="submit" name="button" value="down">Down</button>
+    </form>
   </body>
 </html>
