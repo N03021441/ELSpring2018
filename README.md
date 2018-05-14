@@ -17,6 +17,8 @@ This repository documents my class work and projects done for ***CPS342***.
 
 3. **Class End Date:** May 8, 2018
 
+![TartufoCam](https://photos.app.goo.gl/SGQonBrVP6QtNtb93)
+
 Project Participation
 
 Anthony DiNardi: 50%
