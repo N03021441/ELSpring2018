@@ -1,0 +1,64 @@
+Anthony DiNardi
+Minh Nguyen 
+Dean Terrizzi
+
+1. Your project – brief description 
+2. Work done so far – list 
+3. Work that needs to be done in the next 3 weeks. 
+4. Contribution of each partner. List what each person did, and what each person’s future role 
+for the next 3 weeks is. Be very explicit and honest about this. The only way I can assess your 
+individual contributions is from what you tell me. I will interview each person about their contributions if needed.
+
+Brief
+The idea of this project is to create a security camera that is able to be accessed through the web. 
+This web based security camera includes two servo motors that allow the camera to spectate around a room 
+so that the user is able see what is going on in as well as around the room. The motors will be remotely controlled from a web server. 
+Also the web camera will be able to take a snapshot at a moment in time and email it to a specified email address.
+
+
+
+
+Work done so far
+Servo is up and running. The motor is remotely interfaced from a web page(needs fine tuning)
+Camera is up running on a web page separate from the servos webpage
+
+
+
+
+Work to be done
+
+
+Task 1
+Fine tune the servos’ flask code so that its web page is able to control the position of the  motors. 
+Right now the web page is only able to make the motors oscillate 180 degrees back and forth. 
+
+
+Task 2
+Integrate the servos’ and cameras’ web pages into one
+
+
+Task 3
+Design enclosure/frame for the security camera to be mounted to 
+
+
+Task 4
+Create enclosure/frame
+
+
+Contribution
+
+Anthony DiNardi:
+	I connected the camera to the Pi and was able to get a livestream of the camera feed up and running through Flask. 
+	My future role will be to integrate the servos and camera web pages into one.
+
+Minh Nguyen:
+	I Handled all things servos on this project, from soldering and hardware configuration to the HTML’s interface with flask. 
+	My future role for this project will be primarily on the fine tuning the the servo’s flask and HTML code.
+
+Dean Terrizzi:
+	I also created code for taking snapshots and video recordings of the camera but I don’t have the camera so was unable to 
+	really look at it so Anthony basically did that part. He will lend me the camera this week and my future role will be to 
+	get the camera’s screenshots and video recordings streamed through the remote location accordingly.
+
+Everyone: 
+As a whole, we will discuss the design of the camera’s enclosure as well as how to create the enclosure along with the materials used..

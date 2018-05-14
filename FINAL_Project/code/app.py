@@ -41,6 +41,7 @@ def photo():
 def video():
     return camera_pi.takeVideo()
 
+
 @app.route('/video_feed')
 def video_feed():
 
