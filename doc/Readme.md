@@ -1,1 +1,0 @@
-Documentation related to the project will be placed in this folder
