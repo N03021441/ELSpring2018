@@ -1,9 +1,10 @@
-Programs and code will be placed in this folder
+##Programs and code will be placed in this folder
 
 To run the camera stream, execute the command:  *python app.py*
 from the directory titled "code"
 
-All files on in this folder was written as class assignments and activities and to not pertain to the IOT sercurity camera project. Although the code is not present in this folder, this readme focuses on the software side of the servo motors for the IOT secuirty camera. If you would like to see the source code for the servos please refer to the "project" folder in this repository.
+You will be able to view the interface and control the camera by using the link: your-pi-IP:5000
+where "your-pi-IP" is....well....your Pi's IP address.
 
 The first step to is to interface the pi with the driver. To do this we must configure the I2C protocol on the raspberry pi. From the pi irst run the following commands,
 
