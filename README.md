@@ -17,6 +17,8 @@ This repository documents my class work and projects done for ***CPS342***.
 
 3. **Class End Date:** May 8, 2018
 
+## TartufoCam
+
 ![TartufoCam](https://github.com/N03021441/ELSpring2018/blob/master/FINAL_Project/misc/TartufoCam.jpg)
 
 Project Participation
