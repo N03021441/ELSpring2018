@@ -17,7 +17,7 @@ This repository documents my class work and projects done for ***CPS342***.
 
 3. **Class End Date:** May 8, 2018
 
-![TartufoCam](https://photos.app.goo.gl/SGQonBrVP6QtNtb93)
+![TartufoCam](https://photos.google.com/photo/AF1QipNrBLl1DeBQrm3LHRbjPvfMBmokY7Rqn1BQOvPM)
 
 Project Participation
 
